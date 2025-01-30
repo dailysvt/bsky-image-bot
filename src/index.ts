@@ -5,7 +5,7 @@ dotenv.config();
 
 // EDIT THIS!
 function altTextFromFilename(filename: string): string {
-  return 'Image from ' + postTextFromFilename(filename);
+  return 'Image is ' + postTextFromFilename(filename);
 }
 
 // Shouldn't have to edit this.
