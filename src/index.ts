@@ -12,7 +12,7 @@ function postTextFromImageName(imageName: string): string {
   // Create a formatter
   const formatter = new Intl.DateTimeFormat('en-US', {
     year: 'numeric',
-    month: 'long',
+    month: 'numeric',
     day: 'numeric',
   });
 
