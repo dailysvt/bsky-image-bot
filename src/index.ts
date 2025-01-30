@@ -4,15 +4,6 @@ import * as dotenv from 'dotenv';
 dotenv.config();
 
 // EDIT THIS!
-function postTextFromFilename(filename: string): string {
-  // Remove the file extension
-  const nameWithoutExtension = filename.split('.')[0];
-
-  // Return the filename
-  return nameWithoutExtension;
-}
-
-// EDIT THIS!
 function altTextFromFilename(filename: string): string {
   return 'Image from ' + postTextFromFilename(filename);
 }
