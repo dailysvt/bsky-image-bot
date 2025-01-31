@@ -18,12 +18,12 @@ function postTextFromImageName(imageName: string): string {
 
 //   // Format the date
 //   return formatter.format(date);
-  return 'i dont need this';
+  return 'Seventeen of the Day';
 }
 
 // EDIT THIS!
 function altTextFromFilename(filename: string): string {
-  return 'Image of ' + altTextFromFilename(filename);
+  return 'Image of ' + postTextFromFilename(filename);
 }
 
 // Shouldn't have to edit this.
