@@ -23,7 +23,7 @@ function postTextFromImageName(imageName: string): string {
 
 // EDIT THIS!
 function altTextFromFilename(filename: string): string {
-  return 'Image of ' + postTextFromFilename(filename);
+  return 'Image of ' + altTextFromFilename(filename);
 }
 
 // Shouldn't have to edit this.
