@@ -35,7 +35,7 @@ async function main() {
 
   await postImage({
     path: nextImage.absolutePath,
-    text: 'Seventeen of the Day',
+    text: 'SVT of the Day #Seventeen ',
     altText: altTextFromFilename(nextImage.imageName),
   });
 }
